@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var String1= "Hello";
+       var  String2= "World";
+       console.log(`${String1} ${String2}`);
+    </script>
+    <script>
+        var student={
+        "Name": "John",
+        "Age": 20,
+        "Grade": "A"
+       }
+        for( var key in student){
+        console.log(student[key])
+       }
+    </script>
+    <script>
+        var str="banana";
+        var ch="a"
+        count=0;
+        for(var i=0;i<str.length;i++){
+            if(str[i]==ch){
+            count++;
+        }
+       }
+        console.log(" the character a appers" +count+"times in banana")
+    </script>
+    <script>
+        var a="abcdef"
+        reverse ="";
+        for(var i=1;i<=a.length;i++){
+            count=a.length-i
+            reverse +=a[count]
+        }
+        console.log(reverse)
+    </script>
+    <script>
+    var input={
+       "car":"volkswagen",       
+       "Make": "Toyota",
+       "Model": "Corolla",
+       "Year": 2020 ,
+       "Color": "Blue"
+       }
+       console.log(`car : ${input.car}
+       make:${input.Make}
+       model:${input.Model}
+       Year:${input.Year}
+       make:${input.Color}`)
+    </script>
+</body>
+</html>
